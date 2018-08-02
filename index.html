@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Background-Color</title>
+</head>
+<body>
+	<div class="container">
+    <h2>BackgroundColor - change </h2>
+		<div class="row">
+			<div class="col s5">
+				<input type="text" id="txtcolor" class="scale-transition" autofocus="true">
+			</div>					
+		</div>
+	</div>
+	<script>
+		let input = document.querySelector('input');
+		input.addEventListener('keyup',function(e){
+			var color = input.value;
+			document.querySelector('body').style.background = color;				
+		});
+	</script>
+</body>
+</html>

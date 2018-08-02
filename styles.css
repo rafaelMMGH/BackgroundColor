@@ -1,0 +1,23 @@
+body{
+	background-color: #354678;
+	transition: background 0.5s ease-in-out;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+#txtcolor{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 17%;
+	text-transform: uppercase;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	text-align: center;
+  margin: 2em auto;
+	padding: 0.21em 0.25em;
+	border-radius: 0.2em;
+	font-size: 1.5em;		
+	box-shadow: 0 0 1.3em 0.25em rgba(255,255,255,0.2);
+}
